@@ -1,0 +1,30 @@
+.contactElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: auto;
+
+    padding: 16px;
+
+    width: 200px;
+    height: 200px;
+
+    background-color: #bfffff;
+
+    border-radius: 8px;
+}
+
+.contactElement:hover {
+    scale: 1.1;
+    box-shadow: 10px 5px 5px #9ddddd;
+}
+
+.contactElementInfo {
+    width: 100%;
+}
+
+.contactElementText {
+    color: red;
+}
